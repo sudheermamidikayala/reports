@@ -1,0 +1,236 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.HeaderSec{
+    display: flex;
+    justify-content: space-between;
+    background-color: #21425e;
+    color: white;
+    padding: 2px 0px 11px 0px;
+}
+.GreatATSNav{
+    display: flex;
+    justify-content: space-between;
+}
+.navBarList{
+    display: flex;
+    justify-content: space-between;
+}
+.navList{
+    margin: 6px 12px 0px 12px;
+    text-align: center;
+}
+.navNameList{
+    margin: 0px 0px 0px 0px;
+}
+#profileLogo{
+    font-size: 40px;
+    margin: 4px  0px ;
+}
+.navListProfile{
+    text-align: center;
+}
+.profileImg{
+    text-align: center;
+}
+.navListLogo{
+    margin: 0px 0px 4px 0px;
+}
+.navAnchorColor{
+    color: white;
+    text-decoration: none;
+}
+.homeToDashboardList{
+    display: flex;
+    margin-bottom: 14px;
+}
+.homeToDashboardList1 a{
+    text-decoration: none;
+    margin: 0px 6px 0px 10px;
+    color: black;
+}
+.homeToDashboardList2 a{
+    text-decoration: none;
+    margin: 0px 6px 0px 10px;
+    color: black;
+}
+.dashboardName{
+    margin: 25px 0px 3px 9px;
+}
+
+.TodayAndTotalList{
+    display: flex;
+    justify-content: space-around;
+}
+.reportList{
+    display: flex;
+    justify-content: space-between;
+}
+.reportRequirements{
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 11px 101px;
+    border-radius: 11px;
+    text-align: center;
+    margin: 5px 12px 5px 11px;
+    box-shadow: 1px 1px 32px #D2C6C8;
+
+}
+.reportRequirementscolor1{
+    background-color: aqua;
+}
+.reportRequirementscolor2{
+    background-color: pink;
+}
+.reportRequirementscolor3{
+    background-color: rgb(255, 200, 0);
+}
+.reportRequirementscolor4{
+    background-color: rgba(2, 163, 2, 0.891);
+}
+.ReportGraphdiv {
+    text-align: center;
+    margin: 10px 7px 7px 7px;
+    border: 1px dotted black;
+    padding: 5px 0px 272px 0px;
+}
+.ChartsAndTeamActivity{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.ChartsHead{
+    display: flex;
+    background-color: #21425e;
+    color: white;
+    padding: 15px 0px 9px 9px;
+}
+.TeamsActivityBoxHeadFlex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #21425e;
+    color: white;
+    padding: 7px 0px 9px 9px;
+    align-items: center;
+}
+.TeamsActivityBoxBody{
+    display: flex;
+    justify-content: space-evenly;
+}
+.TeamsActivityBox{
+    border: none;
+    margin: 4px 7px 4px 0px;
+    box-shadow: 1px 1px 5px;
+}
+.ActivityChartsBoxes{
+    border: none;
+    margin: 4px 0px 4px 8px;
+    box-shadow: 1px 1px 5px;
+}
+.ChartsName h6{
+    font-size: 16px;
+    margin-left: 7px;
+}
+.fa-chart-pie:before, .fa-pie-chart:before {
+    font-size: 19px;
+}
+.chartLegendsList {  
+    margin: 17px 0px 13px 541px;
+}
+.chartLegendsList h5{
+    margin-bottom: 6px;
+    font-size: 15px;
+    position: relative;
+    right: 18px;
+}
+.chartLegendsList ul li{
+    margin-bottom: 3px;
+}
+.TeamsActivityBoxName {
+    position: relative;
+    right: 231px;
+    font-size: 22px;
+}
+.TeamsActivityBoxHeadButton button{
+    color: white;
+    background-color: green;
+    padding: 5px 13px;
+    margin-right: 4px;
+}
+.TeamsActivityBoxBody1 ul li{
+    margin: 19px 0px;
+}
+.TeamsActivityBoxBody2 ul li{
+    margin: 19px 0px;
+}
+.NewsReminderBoardBoxesDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.NewsFeedBoxHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color:#21425e ;
+    color: white;
+    padding: 8px 8px;
+}
+.ReminderBoxHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color:#21425e ;
+    color: white;
+    padding: 8px 8px;
+}
+.LeaderBoardBoxHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color:#21425e ;
+    color: white;
+    padding: 8px 8px;
+}
+.BoardSlidesFlex{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 4px;
+    box-shadow: 1px 1px 5px;
+    margin: 17px 14px;
+    border-radius: 32px;
+}
+.NewsFeedBox{
+    margin: 20px 8px;
+    box-shadow: 1px 1px 5px;
+}
+.ReminderBox{
+    margin: 20px 8px;
+    box-shadow: 1px 1px 5px;
+}
+.LeaderBoardBox{
+    margin: 20px 8px;
+    box-shadow: 1px 1px 5px;
+}
+.plusButtoncolor{
+    background-color:rgba(2, 163, 2, 0.891);
+    padding : 8px 8px;
+    color: white;
+    font-size: 12px;
+}
+.footerSection{
+    background-color: #21425e;
+    color: white;
+    text-align: center;
+    padding: 8px 0px;
+}
+.Loggin-in{
+    color: #9494ff;
+}
